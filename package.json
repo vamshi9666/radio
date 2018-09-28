@@ -20,5 +20,9 @@
     "nodemon": "^1.18.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^2.7.0",
+    "prettier": "^1.14.3"
   }
 }
