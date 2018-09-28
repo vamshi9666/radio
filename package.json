@@ -1,0 +1,24 @@
+{
+  "name": "radio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint . ",
+    "dev:start": "./node_modules/.bin/nodemon  server.js",
+    "dev": "npm run dev:start",
+    "test": "npm run lint && npm run dev:start ",
+    "start": "./node_modules/.bin/next start"
+  },
+  "author": "vamshi9666@riseup.net",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "eslint": "^5.6.0",
+    "eslint-plugin-react": "^7.11.1",
+    "next": "^7.0.0",
+    "nodemon": "^1.18.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
